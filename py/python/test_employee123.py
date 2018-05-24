@@ -46,6 +46,8 @@ def determine_employee_standing( number_of_meetings_per_month ):
 		return "in an average company standing"
 	elif( number_of_meetings_per_month < 30 ):
 		return "in a competitive company standing"
+	else( number_of_meetings_per_month == 0 ):
+		return "need to meet with your boss"
 
 def ask_for_number_of_meetings():
 	week1 = float( input( "please enter number of meetings for week 1: " ))
