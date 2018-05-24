@@ -43,15 +43,15 @@ def determine_employee_standing( number_of_meetings_per_month ):
 	if( number_of_meetings_per_month < 10 ):
 		return "in a bad compnay standing"
 	elif( number_of_meetings_per_month < 19 ):
-		return "in an average company stadning"
+		return "in an average company standing"
 	elif( number_of_meetings_per_month < 30 ):
 		return "in a competitive company standing"
 
 def ask_for_number_of_meetings():
 	week1 = float( input( "please enter number of meetings for week 1: " ))
-	week2 = float( input( "please enter number of meetings for week 1: " ))
-	week3 = float( input( "please enter number of meetings for week 1: " ))
-	week4 = float( input( "please enter number of meetings for week 1: " ))
+	week2 = float( input( "please enter number of meetings for week 2: " ))
+	week3 = float( input( "please enter number of meetings for week 3: " ))
+	week4 = float( input( "please enter number of meetings for week 4: " ))
 
 	return week1, week2, week3, week4
 
